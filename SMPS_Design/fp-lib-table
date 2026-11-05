@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Footprints_SMPS_Design") (type "KiCad") (uri "${KIPRJMOD}/Libraries_SMPS_Design/Footprints_SMPS_Design.pretty") (options "") (descr ""))
+)

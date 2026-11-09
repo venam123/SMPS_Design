@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "008777cf-fe97-4776-904f-b900a1c74012")
 	(paper "A3")
+	(title_block
+		(title "SMPS")
+		(date "2026-11-09")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -10892,8 +10897,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2nF"
-			(at 128.27 63.754 0)
+		(property "Value" "2.2nF/630V"
+			(at 125.73 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10903,7 +10908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 128.27 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11543,7 +11548,7 @@
 			)
 		)
 		(property "Value" "47R/2W"
-			(at 126.238 73.66 90)
+			(at 125.73 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11896,6 +11901,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 245.11 81.28 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11905,7 +11911,7 @@
 		(dnp no)
 		(uuid "f4d64f9f-07b7-405d-878a-40873a86d068")
 		(property "Reference" "RV2"
-			(at 241.554 79.756 90)
+			(at 241.554 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11916,7 +11922,7 @@
 			)
 		)
 		(property "Value" "10K_POT"
-			(at 243.078 77.978 90)
+			(at 243.078 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11926,7 +11932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(property "Footprint" "Footprints_SMPS_Design:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
 			(at 245.11 81.28 0)
 			(hide yes)
 			(show_name no)

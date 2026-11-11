@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "SMPS")
-		(date "2026-11-09")
+		(date "2026-11-11")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -206,6 +206,129 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5114,6 +5237,12 @@
 		(uuid "42fa7d83-fed3-4437-b3da-288a623ccc7d")
 	)
 	(junction
+		(at 330.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4941b589-4c1f-46be-b63c-849e938f749e")
+	)
+	(junction
 		(at 245.11 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5198,6 +5327,12 @@
 		(uuid "7634b717-a721-4485-8632-0e03cbd4b7e4")
 	)
 	(junction
+		(at 45.72 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79121ebe-0a6d-44d9-843f-269d5f847572")
+	)
+	(junction
 		(at 128.27 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5244,6 +5379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd80a8b8-6288-4dac-a4fd-ada89aeeacc6")
+	)
+	(junction
+		(at 328.93 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdebe0db-a75d-429b-ab78-4cf44d2f92a7")
 	)
 	(junction
 		(at 67.31 191.77)
@@ -5667,6 +5808,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 99.06) (xy 334.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c43ee1-2bf3-4893-a7d8-35293f0b4292")
+	)
+	(wire
+		(pts
 			(xy 252.73 74.93) (xy 245.11 74.93)
 		)
 		(stroke
@@ -5697,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 222.25) (xy 45.72 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f76e56-5d72-4eed-bc19-7340e5a631b3")
+	)
+	(wire
+		(pts
 			(xy 195.58 134.62) (xy 195.58 116.84)
 		)
 		(stroke
@@ -5724,6 +5885,16 @@
 			(type default)
 		)
 		(uuid "391b3bc7-be49-4ae3-b1d4-ebf65358af22")
+	)
+	(wire
+		(pts
+			(xy 328.93 68.58) (xy 328.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a186feb-04eb-4268-b80b-cda0eb964a1a")
 	)
 	(wire
 		(pts
@@ -5877,7 +6048,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 71.12) (xy 321.31 71.12)
+			(xy 334.01 71.12) (xy 328.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5904,6 +6075,16 @@
 			(type default)
 		)
 		(uuid "4bd4dbc2-5247-4a40-a648-bca7ea060f4a")
+	)
+	(wire
+		(pts
+			(xy 69.85 201.93) (xy 67.31 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c784c01-01e5-4abe-a563-461973c813c1")
 	)
 	(wire
 		(pts
@@ -6047,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 99.06) (xy 330.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a4e0d2-6fd1-437b-9483-61f0250c8877")
+	)
+	(wire
+		(pts
 			(xy 306.07 99.06) (xy 311.15 99.06)
 		)
 		(stroke
@@ -6097,7 +6288,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 99.06) (xy 334.01 99.06)
+			(xy 321.31 99.06) (xy 330.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6264,6 +6455,16 @@
 			(type default)
 		)
 		(uuid "861e8a71-c939-4931-b5d8-67e7f8eb6ae5")
+	)
+	(wire
+		(pts
+			(xy 328.93 71.12) (xy 321.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8622f9e0-7e32-4c11-b847-f634e841c5c1")
 	)
 	(wire
 		(pts
@@ -7813,7 +8014,7 @@
 			)
 		)
 		(property "Value" "10mR/0.5W"
-			(at 261.874 146.558 90)
+			(at 262.89 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8680,6 +8881,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 330.2 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5acbe04e-8039-4638-ab35-e1bf08127a39")
+		(property "Reference" "TP2"
+			(at 336.55 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 336.55 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 325.12 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 330.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4bc9b77-926a-414a-98a6-49905c3ac477")
+		)
+		(instances
+			(project "SMPS_Design"
+				(path "/008777cf-fe97-4776-904f-b900a1c74012"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 59.69 182.88 90)
 		(unit 1)
@@ -8858,6 +9137,84 @@
 			(project "SMPS_Design"
 				(path "/008777cf-fe97-4776-904f-b900a1c74012"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 201.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60403a77-6dc2-412d-a5ca-3d15a30b1376")
+		(property "Reference" "TP4"
+			(at 78.74 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 69.85 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b774236d-bc2f-4598-b54c-fa4d81b13164")
+		)
+		(instances
+			(project "SMPS_Design"
+				(path "/008777cf-fe97-4776-904f-b900a1c74012"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9598,6 +9955,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 222.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "881e3cd3-f3ea-42f5-b283-01760fe6054f")
+		(property "Reference" "TP3"
+			(at 34.29 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 36.83 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 43.18 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d976f892-fd6e-4c36-be01-c96e2d325670")
+		)
+		(instances
+			(project "SMPS_Design"
+				(path "/008777cf-fe97-4776-904f-b900a1c74012"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 100.33 149.86 0)
 		(unit 1)
@@ -9787,7 +10222,7 @@
 				)
 			)
 		)
-		(property "Value" "RS1M"
+		(property "Value" "US1M"
 			(at 140.97 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,6 +10286,98 @@
 			(project "SMPS_Design"
 				(path "/008777cf-fe97-4776-904f-b900a1c74012"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "956b8618-761c-45c6-ac61-228c5080c3d6")
+		(property "Reference" "C7"
+			(at 200.66 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF/630V"
+			(at 207.01 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 201.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MFR Part#" ""
+			(at 201.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca4d71d2-ed00-4da7-bb73-c72e327a25e2")
+		)
+		(pin "2"
+			(uuid "1623b157-3e6f-463d-b05b-c3369957b4d5")
+		)
+		(instances
+			(project "SMPS_Design"
+				(path "/008777cf-fe97-4776-904f-b900a1c74012"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9966,6 +10493,84 @@
 			(project "SMPS_Design"
 				(path "/008777cf-fe97-4776-904f-b900a1c74012"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 328.93 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99054dd3-44be-45b8-8754-f28750ba6a60")
+		(property "Reference" "TP1"
+			(at 326.39 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 326.39 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 334.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 328.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "525913ae-a119-4f84-a9d8-425d46b2d223")
+		)
+		(instances
+			(project "SMPS_Design"
+				(path "/008777cf-fe97-4776-904f-b900a1c74012"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11146,98 +11751,6 @@
 			(project "SMPS_Design"
 				(path "/008777cf-fe97-4776-904f-b900a1c74012"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 201.93 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e5a96efa-a190-4082-858e-94ac4ab63af0")
-		(property "Reference" "C7"
-			(at 200.406 89.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2nF"
-			(at 203.454 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 201.93 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 212.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MFR Part#" ""
-			(at 201.93 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cf5fca4-44c5-41f7-a84f-6930a425696f")
-		)
-		(pin "2"
-			(uuid "26d49c0a-0a61-4ab4-a8dc-150b372d7637")
-		)
-		(instances
-			(project "SMPS_Design"
-				(path "/008777cf-fe97-4776-904f-b900a1c74012"
-					(reference "C7")
 					(unit 1)
 				)
 			)
